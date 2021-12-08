@@ -1,0 +1,44 @@
+#logo {
+    width: 220px;
+}
+#search {
+    width: 17.6px;
+}
+body {
+    margin: 0px;
+    background-image: url("Cosmic-Gradient-14.jpg");
+    background-size: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+.flex-items {
+    padding:25px;
+}
+#lol {
+    background-color: rgba(38, 32, 62, 0.8);
+    font-size: 1,1rem;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#xd {
+    font-size: 2rem;
+}
+
+.bruh {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: white;
+    width:50vw;
+    margin:25vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
