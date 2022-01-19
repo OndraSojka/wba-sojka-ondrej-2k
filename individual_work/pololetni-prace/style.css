@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: blanchedalmond;
+    font-size: 4rem;
+    text-align: center;
+}
+p {
+    width: 300px;
+    padding-left: 30px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .flex-items img {
+    display:block;
+    width:300px;
+    height:300px;
+    padding: 30px;
+  }
+  .flex-container-dva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .flex-items-dva img {
+    display:block;
+    width:300px;
+    height:300px;
+    padding: 30px;
+  }
+  #jednap {
+    display:none;
+    color:blanchedalmond;
+    margin:0;
+  }
+  #jedna:hover #jednap {
+    display:block;
+  }
+  #dvap {
+    display:none;
+    color:blanchedalmond;
+    margin:0;
+  }
+  #dva:hover #dvap {
+    display:block;
+  }
+  #trip {
+    display:none;
+    color:blanchedalmond;
+    margin:0;
+  }
+  #tri:hover #trip {
+    display:block;
+  }
+  #ctyrip {
+    display:none;
+    color:blanchedalmond;
+    margin:0;
+  }
+  #ctyri:hover #ctyrip {
+    display:block;
+  }
